@@ -1,0 +1,122 @@
+<!--
+    Página que muestra etiquetas básicas de html
+    Basado en: https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web/HTML_basics
+
+
+-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Ejemplo etiquetas basicas de HTML</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="../css/401_estilo.css" />
+
+
+</head>
+
+
+<body>
+    <p>Esto son los encabezados </p>
+    <hr>
+    <h1>Mi titulo principal - etiqueta h1 - </h1>
+    <h2>Mi titulo titulo titulo de nivel superior - etiqueta h2 - </h2>
+    <h3>Mi subtitulo - etiqueta h3 -</h3>
+    <h4>Mi sub-subtitulo - etiqueta h4 -</h4>
+    <hr>
+    <pre>Este es un texto entre etiquetas 
+    pre 
+    deberia aparecer tal cual    está 
+       escrito respentado      espacios    en  blanco 
+</pre>
+    <p class="parrafo01"> Párrafo 01.
+        Este es el párrafo 01 Lorem no por mucho madrugar amarece más temprano dolor sit amet, consectetuer adipiscing elit. Maecenas
+        porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet
+        commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est.
+        Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+        Proin pharetra nonummy pede. Mauris et orci. Aenean nec lorem.
+    </p>
+
+
+    <p class="parrafo02"> Párrafo 02. <br>Las Aventuras del Capitán Alatriste – Arturo Pérez Reverte No era el hombre más honesto ni el más
+        piadoso, pero era un hombre valiente. Se llamaba Diego Alatriste y Tenorio, y había luchado como soldado de los
+        tercios viejos en las guerras de Flandes. Cuando lo conocí malvivía en Madrid, alquilándose por cuatro
+        maravedíes en trabajos de poco lustre, a menudo en calidad de espadachín por cuenta de otros que no tenían la
+        destreza o los arrestos para solventar sus propias querellas.
+    </p>
+
+
+    <p class="parrafo03"> Párrafo 03. <del> La Guerra del Fin del Mundo - Mario Vargas Llosa. El hombre era alto y tan flaco que parecía
+            siempre de perfil. Su piel era oscura, sus huesos prominentes y sus ojos ardían con fuego perpetuo. Calzaba
+            sandalias de pastor y la túnica morada que le caía sobre el cuerpo recordaba el hábito de esos misioneros
+            que, de cuando en cuando, visitaban los pueblos del sertón bautizando muchedumbres de niños y casando a las
+            parejas amancebadas. Era imposible saber su edad, su procedencia, su historia, pero algo había en su facha
+            tranquila, en sus costumbres frugales, en su imperturbable seriedad que, aun antes de que diera consejos,
+            atraía a las gentes.</del>
+        <div>¿Qué nos quiere decir el autor? </div>
+        <!--div es un delimitador de contenedor, debemos preguntarnos antes de usarlo si existe una etiqueta html que puede hacer su función. -->
+
+    </p>
+    <hr>
+    <time> </time>
+    <p>Ahora una imagen </p>
+    <img src="./imagenes/animales.jpg" alt="Mi imagen de prueba">
+
+
+
+    <hr>
+    <p>Ahora una lista desordenada </p>
+    <ul>
+        <li>tecnólogos</li>
+        <li>pensadores</li>
+        <li>constructores</li>
+    </ul>
+
+    <p>Ahora una lista ordenada </p>
+    <ol>
+        <li>tecnólogos</li>
+        <li>pensadores</li>
+        <li>constructores</li>
+    </ol>
+    <hr> <!-- para separar secciones -->
+
+
+    <p>Ahora una lista de deficiniones - glosario términos de cocina</p>
+    <dl>
+        <dt>Hornear</dt>
+        <dd>Cocinar con calor seco, habitualmente en el horno.</dd>
+        <dt>Hervir</dt>
+        <dd>Calentar un líquido hasta que las burbujas rompan contínuamente en la superficie.</dd>
+        <dt>Desgrasar</dt>
+        <dd>Remover la grasa de la superficie de caldos o sopas. Habitualmente enfriándolos en el refrigerador de modo
+            que la grasa se endurezca y sea fácilmente removida.</dd>
+    </dl>
+
+    <p>Ahora un hiperenlace
+        <a href="https://www.mozilla.org/es-AR/about/manifesto/">Mozilla Manifesto</a>
+        <br><br><br>
+    </p>
+
+    <p>Esto es algo nuevo en HTML5 se trata de la etiqueta figure, utlizada para mostrar contenido relacionado con lo
+        que estamos tratando pero que rompe con el flujo</p>
+    <figure>
+        <pre>
+    <code>
+        function hola(){
+            return "hola"
+        }
+    </code>
+</pre>
+        <figcaption>
+            Declaración de una función Javascript
+        </figcaption>
+    </figure>
+
+
+    <button> hola hola </button>
+
+</body>
+
+</html>

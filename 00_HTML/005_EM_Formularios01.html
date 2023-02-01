@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Formularios en HTML</title>
+</head>
+
+<body>
+	<h1>Concurso de series</h1>
+
+	<form>
+		<fieldset>
+			<legend>Vota por tu serie favorita</legend>
+			<div>
+				<label for="nombre">Nombre</label>
+				<!--funciona igual que campo provincia-->
+				<input id="nombre" type="text" placeholder="Ej. Pepito">
+			</div>
+			<div></div>
+			<label>Provincia
+				<!--funciona igual que campo nombre-->
+				<input type="text" placeholder="provincia">
+			</label>
+			</div>
+			<div></div>
+			<label>Fecha nacimiento
+				<input type="date" placeholder="fecha nacimiento">
+			</label>
+			</div>
+			<br><br>
+			<label>Email</label>
+			<input type="email" placeholder="ejemplo@gmail.com">
+
+			<br><br>
+			<label>numero de series que ves al mes</label>
+			<input type="number" placeholder="número de serires vistas al mes">
+
+			<br><br>
+
+			<br><br>
+			<label>Este número está fijo no puedo cambiarlo </label>
+			<input type="numerofijo" value="2" readonly>
+
+			<br><br>
+			<label>Contraseña</label>
+			<input type="password" required>
+			<!--campo obligatorio-->
+
+			<br><br>
+
+			<fieldset>
+				<legend>Otro Ejemplo de select y opciones</legend>
+				<label for="country">Escoge tu país</label>
+				<select name="country" id="country">
+					<optgroup label="América">
+						<option value="Perú">Perú</option>
+						<option value="Colombia">Colombia</option>
+						<option value="Bolivia">Bolivia</option>
+						<option value="Ecuador">Ecuador</option>
+					</optgroup>
+					<optgroup label="Europa">
+						<option value="España">España</option>
+						<option value="Italia">Italia</option>
+						<option value="Alemania"></option>
+					</optgroup>
+				</select>
+			</fieldset>
+			<br><br>
+			<label for="textoamplio">Comenta aquí lo que quieras</label>
+			<textarea name="mensaje" id="textoamplio" placeholder="Escribe tu mensaje" cols="30" rows="10"></textarea>
+			<br><br>
+			<label>Serie</label>
+			<select>
+				<option>Lost</option>
+				<option>How I met your mother</option>
+				<option>Fargo</option>
+				<option>True Detective</option>
+			</select>
+
+			<br><br>
+			<label>¿La ves en VOS?</label><br>
+			<input type="radio" name="vos"> No<br>
+			<input type="radio" name="vos"> Sí, no puedo esperar a que la traduzcan
+
+			<br><br>
+			<label>¿Desde dónde ves la serie?</label><br>
+			<input type="checkbox"> Desde la TV<br>
+			<input type="checkbox"> Desde el ordenador<br>
+			<input type="checkbox"> Desde la tablet
+
+			<br><br>
+			<label>¿Por qué amas esa serie?</label><br>
+			<textarea rows="5" cols="70"></textarea>
+			<!--los formularios se pueden enviar con el elemento button o input tipo submit -->
+			<br><br>
+			<input type="submit" value="Participar">
+			<input type="reset" value="Borrar formulario">
+
+		</fieldset>
+	</form>
+
+	<form name="formulario" method="get" action="procesar.php">
+		<datalist id="datos">
+		<!-- 	Sirve para sugerir valores al usuario -->
+			<option value="1231" label="Teléfono 1">
+			<option value="4564" label="Teléfono 2">
+		</datalist>
+		<p><label>Teléfono: <input type="tel" name="telefono" list="datos"></label></p>
+		<p><input type="submit" value="Enviar"></p>
+	</form>
+
+	<progress value="30" max="100">0%</progress>
+	<meter value="60" min="0" max="100" low="40" high="80"
+	optimum="100">60</meter>
+	<p>Este concurso está sometido a las siguientes <a href="bases_legales.html">bases legales</a> antes notario.</p>
+
+	<hr>
+
+	<p>&copy; Copyright 2015 | Tus Series Favoritas &amp; Co.</p>
+
+
+	<script>
+		document.getElementById('nombre').addEventListener('keyup', e => { console.log(e.target.value) })
+	</script>
+</body>
+
+</html>

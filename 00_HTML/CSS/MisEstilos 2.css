@@ -1,0 +1,11 @@
+
+
+/*Con esta lína hacemos que:
+las antiguas versiones de navegadores no reconocen los nuevos
+elementos incorporados por HTML5 y los consideran como elementos Inline por defecto. Si
+queremos asegurarnos de que estos elementos se interpreten como elementos Block en todos
+los navegadores, podemos declarar la siguiente regla en nuestras hojas de estilo*/
+header, section, main, footer, aside, nav, article, figure, figcaption
+{
+display: block;
+}

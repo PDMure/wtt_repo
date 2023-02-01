@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!--En este fichero veremos ejemplos de tablas con sus principales atributos-->
+<html>
+<!---->
+
+<head>
+  <meta charset="utf-8">
+  <title>Tablas con estilo</title>
+  <link rel="stylesheet" type="text/css" media="screen" href=".\css\EstilosTablas.css">
+</head>
+
+<body>
+  <table border="1">
+    <caption>HORARIO EJEMPLO </caption>
+    <colgroup>
+      <col>
+      <col>
+      <col>
+      <col>
+      <col style="background: yelow">
+    </colgroup>
+    <thead>
+      <!--Si usamos encabezado conviene usar un thead-->
+      <tr>
+        <!--las columnas th (table head) funcionan como las td table -->
+        <th>LUNES</th>
+        <th>MARTES</th>
+        <th>MIERCOLES</th>
+        <th>JUEVES</th>
+        <th>VIERNES</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Biología</td>
+        <td>Historia</td>
+        <td>Pástica</td>
+        <td rowspan="2">Matemáticas</td>
+        <td>Inglés</td>
+      </tr>
+      <tr>
+        <td>Matemáticas</td>
+        <td>Educación Física</td>
+        <td>Inglés</td>
+
+        <td>Biología</td>
+      </tr>
+      <tr>
+        <td colspan="5">recreo</td>
+      </tr>
+      <tr>
+        <td rowspan="2">Lengua</td>
+        <td>Educación Física</td>
+        <td>Lengua</td>
+        <td>Historia</td>
+        <td>Lengua </td>
+      </tr>
+      <tr>
+
+        <td>Plástica</td>
+        <td>Matemáticas</td>
+        <td>Biología</td>
+        <td>Historia</td>
+      </tr>
+    </tbody>
+    <tfoot style="background: yelow">
+      <td>2 credito</td>
+      <td>3 credito</td>
+      <td>2 credito</td>
+      <td>3 credito</td>
+      <td>2 credito</td>
+    </tfoot>
+  </table>
+
+  <br>
+  <hr> <br>
+
+</body>
+
+</html>

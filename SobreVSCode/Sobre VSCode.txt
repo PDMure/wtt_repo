@@ -1,0 +1,80 @@
+﻿
+
+
+Primeros pasos
+https://www.youtube.com/watch?v=Ijz1mXQm7KU
+-Arrastrar carpeta para abrir proyecto
+-Integración de imágenes
+-Abrir varias ventanas del mismo fichero
+-Buscar y reemplazar
+-Run and debug (ctrl + mayus + D)
+-Extensiones 
+
+
+Uso cotidiano de vscode
+https://www.youtube.com/watch?v=tZTpKF2pkQo
+min 3. 
+
+-Emmet plugin de autocompletado para html
+
+html:5 / ! : genera la estructura básica de un doc html
+ejemplo de emmet :  ul>li*4>a*4 
+genera una lista con 4 li y cada uno de ellos con 4 href
+
+La extensión Live Server permite activar un servidor web. 
+nos permite ver los cambios en el código inmediatamente
+
+La opción de configuración para el control de fin de línea es: Editor;word warp 
+
+Extensiones interesantes:
+
+Live Server: genera un servidor web para ver el código html casi instantáneamente
+htmltagwrap: con alt-w puedes etiquetar un texto seleccionado. 
+Bracket Pair Colorizer: automáticamente marca llaves y  paréntesis con colores para distinguirlos mejor . trabaja con lenguajes de programación
+Spanish Language Pack for Visual Studio: presenta los menús en castellano.  (pulsa  F1 y luego Configure Display Language)
+Draw.io  integration: permite integrar una herramienta para hacer diagramas y así integrar un documento gráfico en tu carpeta de proyecto. (realmente inserta un draw.io en vscode).
+ESLint: Un lint (Corrector optimizador de código) para javasrcript
+Indent rainbow: muestra con colores el nivel de indentación en el que te encuentas 
+
+
+
+Trucos para mejorar la mejorar la escritura en Visual studio code 
+
+1.- Escribir el nombre de la etiqueta sin angulos 
+el sólo te escribe la etiqueta de inicio y cierre 
+
+
+2.- Comentar un bloque de código: seleccionar las líneas 
+Atajo de teclado: Alt + Mayus + A 
+
+
+3.- Insertar Comentario:
+Ctrl + ç (reconoce el lenguaje y se adecua a la sintaxis del comentario
+
+
+4.- Duplicar líneas de codigo:  seleccionar las líneas 
+Atajo de teclado: Alt + Mayus +  flecha abajo 
+
+
+5.- Para indentar mi código 
+Mayus + Alt + f
+
+
+6.- Muestra la paleta de comados 
+Ctrl + Mayus + P  -/-  F1
+
+
+7.- Control de fin de línea
+Alt Z
+
+
+8.- seleccionar todas las aparicones de la palabra seleccionada en el fichero (para su posterior reemplazo).
+Ctrl + F2
+
+9.- Buscar y reemplazar
+Ctrl + H
+
+
+
+
+

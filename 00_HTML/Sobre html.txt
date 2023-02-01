@@ -1,0 +1,30 @@
+
+
+
+Aprender sobre el desarrollo web
+https://developer.mozilla.org/es/docs/Learn
+
+
+Validador para chequear el código HTML (entre otros) para que cumpla con el estandar.
+https://validator.w3.org/
+
+
+página que te da el DPR y el viewport
+https://whatismyviewport.com/
+
+más info
+https://programmerclick.com/article/80451011055/
+
+
+para generar el favicon
+https://www.favicon-generator.org/
+
+
+Librería de iconos
+https://fontawesome.com/start
+
+Sobre el Open Graphic Protocol.
+Las meta etiquetas o protocolo Open Graph fue creado por Facebook y 
+permite mostrar cualquier página web 
+con un formato enriquecido en redes sociales. 
+https://seoalive.com/open-graph/

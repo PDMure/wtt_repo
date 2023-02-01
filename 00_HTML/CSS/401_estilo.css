@@ -1,0 +1,60 @@
+
+/* Generador de sombras
+https://css3gen.com/text-shadow/
+
+*/
+
+
+
+body {
+   background: #c5c5c5;
+   padding: 15px;
+}
+
+h1 {
+   padding: 20px;
+   font-size: 40px;
+   font-family: 'Sriracha', cursive;
+   text-align: center;
+}
+.parrafo01, .parrafo02 {
+   background-color: blueviolet;
+   margin-bottom: 40px;
+}
+
+/* 
+
+.parrafo_01 {
+   
+   margin-bottom: 40px;
+   text-transform: capitalize; 
+   color: red;
+   font-size: 25px;
+   font-weight: bold;
+}
+
+.parrafo_02 {
+   letter-spacing: 6px;
+   margin-bottom: 80px;
+   text-decoration: underline;
+   text-align: right;
+}
+
+.parrafo_03 {
+   width: 600px;
+   height: 200px;
+   background-color: teal;
+   margin: 20px;
+   text-align: center;
+}
+
+.parrafo_04 {
+   line-height: 30px;
+   word-spacing: 30px;
+   text-align: justify;
+   text-shadow: 5px 2px 2px #360505;
+   margin-bottom: 35px;
+  
+
+
+   */

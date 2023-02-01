@@ -1,0 +1,47 @@
+/*solo afecta a las etiquetas p dentro de article*/
+
+article p {
+    font-size: 20px;
+}
+
+/*afecta a las etiquetas con atributo class  */
+
+.cabeceraArticulo {
+    font-size: 50px;
+}
+
+/*afecta a las etiquetas con atributo id (identificador exclusivo de un elemento) */
+
+#cabeceraSeccion {
+    font-size: 36px;
+}
+
+/*  La palabra clave odd para la seudoclase :nth-child() afecta a los elementos <p> que son hijos de otro elemento y tienen un índice impar, y la palabra clave even afecta a aquellos que tienen un índice par. */
+
+p:nth-child(odd) {
+    background-color: #999999;
+}
+
+p:nth-child(even) {
+    background-color: #CCCCCC;
+}
+
+header {
+    margin: 30px;
+    padding: 15px;
+    text-align: center;
+    background-image: url("LadrillosClaros.jpg");
+    border: white 8px outset;
+    filter: sepia(0.8);
+}
+
+/*   header {
+           margin: 30px;
+           padding: 15px;
+        } */
+
+#titulo {
+    font: bold 26px Verdana, sans-serif;
+    color: hsla(0, 100%, 40%, 0.616);
+    width: 20%;
+}

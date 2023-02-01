@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<!--En este fichero veremos ejemplos de tablas con sus principales atributos-->
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Tablas en HTML</title>
+</head>
+<body>
+	<table border="1">
+        <caption>Primer ejemplo  - Esto es el título de la tabla</caption>
+        <col span="2" class="fondo"><col>
+        <thead> <!--Si usamos encabezado conviene usar un thead-->
+            <tr> <!--las columnas th (table head) funcionan como las td table -->
+                <th>Cabecera 1</th>
+                <th>Cabecera 2</th>
+                <th>Cabecera 3</th>
+              </tr>
+        </thead>
+        <tbody>
+            <tr>
+            <td>Celda 1</td>
+            <td>Celda 2</td>
+            <td>Celda 3</td>
+          </tr>
+          <tr>
+            <td>Celda 4</td>
+            <td>Celda 5</td>
+            <td>Celda 6</td>
+          </tr>
+        </tbody>
+        <tfoot>
+            <td>total col 1 </td>
+            <td>total col 2 </td>
+            <td>total col 3 </td>
+        </tfoot>   
+    </table>
+
+      <br> <hr> <br>   
+
+    <table border="1">
+        <caption>Segudno ejemplo sin borde </caption>
+        <col span="2" class="fondo"><col>
+        <tbody>
+          <tr>
+            <td colspan="2">Celda a1 y celda a2</td>
+          </tr>
+          <tr>
+            <td>Celda a2</td>
+            <td>Celda b2</td>
+          </tr>
+        </tbody>
+    </table>  
+
+      <br> <hr> <br> 
+
+    <table border="1">
+        <caption>tercer ejemplo </caption>
+        <col span="2" class="fondo"><col>
+        <tbody>
+          <tr>
+            <td colspan="2">Celda a1 y celda a2</td>
+          </tr>
+          <tr>
+            <td>Celda a2</td>
+            <td>Celda b2</td>
+          </tr>
+        </tbody>
+    </table>
+
+      <br> <hr> <br> 
+
+    <table border="1">
+        <caption>cuarto ejemplo </caption>
+        <col span="2" class="fondo"><col>
+        <tbody>
+          <tr>
+            <td rowspan="2">Celda a1 y celda a2</td>
+            <td>Celda b1</td>
+          </tr>
+          <tr>
+            <td>Celda b2</td>
+          </tr>
+        </tbody>
+    </table>
+
+          <br> <hr> <br> 
+      
+    <table border="1">
+        <caption>quinto ejemplo </caption>
+        <col span="2" class="fondo"><col>
+        <tbody>
+          <tr>
+            <td rowspan="2" colspan="2">Celda a1 y celda a2  b1 y b2</td>
+            <td>Celda c1</td>
+          </tr>
+          <tr>
+            <td>Celda c2</td>
+          </tr>
+          <tr>
+            <td>Celda a3</td>
+            <td>Celda b3</td>
+            <td>Celda c3</td>
+          </tr>
+        </tbody>
+    </table>    
+
+      
+
+</body>
+</html>
+
+<br> <hr> <br> 
+
+<table border="2"> 
+    <tr>
+        <th>Título de la película</th>
+        <td>La matanza de Texas</td>
+        <td>Los osos amorosos se van a esquiar</td>
+        <td>Lucky Luke el intrépido</td>
+    </tr>
+    <tr>
+        <th>¿Para niños?</th>
+        <td>No, demasiado violenta</td>
+        <td>Sí, apropiada</td>
+        <td rowspan="2">¡Para toda la familia!</td>
+    </tr>
+    <tr>
+        <th>¿Para adolescentes?</th>
+        <td>Sí</td>
+        <td>No hay violencia suficiente...</td>
+    </tr>
+ </table>
+
+ <br> <hr> <br> 
+
+<table class="egt">
+
+    <caption>Consumo de combustible de los autos a lo largo de las pruebas de manejo</caption>
+  
+    <tr>
+  
+      <th scope="col">Car</th>
+  
+      <th>Enero</th>
+  
+      <th>Febrero</th>
+  
+      <th>Marzo</th>
+  
+    </tr>
+  
+    <tr>
+  
+      <th>Chevrolet Camaro</th>
+  
+      <td>1254 lts</td>
+  
+      <td>1582 lts</td>
+  
+      <td>685 lts</td>
+  
+    </tr>
+  
+    <tr>
+  
+      <th>Lamborghini Aventator</th>
+  
+      <td>1854 lts</td>
+  
+      <td>1978 lts</td>
+  
+      <td>1502 lts</td>
+  
+    </tr>
+  
+  </table>
